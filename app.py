@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 
 
-# Load your Spotify dataset (raw, unclustered)
-df_songs = pd.read_csv('spotify_dataset.csv')  # <-- Replace with your actual dataset filename
+
+df_songs = pd.read_csv('spotify_dataset.csv')  
 
 # Load Scaler and KMeans model
 scaler = joblib.load('scaler.joblib')
