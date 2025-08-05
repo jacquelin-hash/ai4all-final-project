@@ -36,7 +36,7 @@ scaler = joblib.load('scaler.joblib')
 df_songs = pd.read_csv('clustered_songs_with_moods.csv')
 
 # Streamlit App
-st.title("🎶 Song Mood Classifier & Recommender")
+st.title("🎶 Vibe Net: Turning Sound Into Emotion")
 
 # Input sliders
 valence = st.slider('Valence (0 = sad, 1 = happy)', 0.0, 1.0, 0.5)
