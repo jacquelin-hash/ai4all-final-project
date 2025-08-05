@@ -5,7 +5,7 @@ import joblib
 
 
 
-df_songs = pd.read_csv('spotify_dataset.csv')  
+df_songs = pd.read_csv('cleaned_spotify_dataset.csv')  
 
 # Load Scaler and KMeans model
 scaler = joblib.load('scaler.joblib')
